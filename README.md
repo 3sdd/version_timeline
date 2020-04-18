@@ -3,8 +3,8 @@
 
 リンク
 
-- [PyTorch](pytorch.html)
-- [Torchvision](torchvision.html)
+- [PyTorch](https://3sdd.github.io/version_timeline/pytorch.html)
+- [Torchvision](https://3sdd.github.io/version_timeline/torchvision.html)
 
 
 
