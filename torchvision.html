@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Torchvisionバージョンタイムライン</title>
+</head>
+<body>
+	<header class="cd-main-header text-center flex flex-column flex-center">
+    <h1>Torchvisionバージョンタイムライン</h1>
+    <!-- <a class="margin-top-sm">👈<a class="color-inherit" href="https://codyhouse.co/gem/vertical-timeline/">Article &amp; Download</a></p> -->
+  </header>
+
+
+  <template id="templateTimelineBlock">
+    <div class="cd-timeline__block">
+      <div class="cd-timeline__img cd-timeline__img--picture">
+        <!-- <img src="assets/img/icon-circle.svg" alt="Picture"> -->
+      </div> <!-- cd-timeline__img -->
+
+      <div class="cd-timeline__content text-component">
+        <div style="margin-bottom: 10px;">
+          <h2 class="timelineTitle" style="display: inline;">タイトル</h2>
+          <h5 class="timelinePrerelease" style="display:inline-block;margin-left: 10px;">プレリリース</h5>
+        </div>
+
+        
+        <p class="color-contrast-medium timelineContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+        <div>
+          <p class="timelineShortDescription">
+          </p>
+        </div>
+        <a class="timelineReleaseLink">
+        </a>
+
+        <div class="flex justify-between items-center">
+          <span class="cd-timeline__date">日付</span>
+        </div>
+      </div> <!-- cd-timeline__content -->
+    </div> 
+  </template>
+
+  <section class="cd-timeline js-cd-timeline">
+    <div class="container max-width-lg cd-timeline__container" id="timelineContainer">
+
+    </div>
+  </section> <!-- cd-timeline -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="assets/js/load_json.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    loadJson("assets/json/release_torchvision.json",main);
+  </script>
+</body>
+</html>

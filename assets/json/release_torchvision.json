@@ -1,0 +1,169 @@
+{
+    "data": {
+      "repository": {
+        "name": "vision",
+        "nameWithOwner": "pytorch/vision",
+        "releases": {
+          "totalCount": 13,
+          "edges": [
+            {
+              "node": {
+                "name": "First release",
+                "createdAt": "2016-11-18T06:44:22Z",
+                "publishedAt": "2017-04-03T04:35:26Z",
+                "tagName": "v0.1.5",
+                "updatedAt": "2017-04-03T04:41:08Z",
+                "shortDescriptionHTML": "Introduced Datasets and Transforms. Added common datasets - COCO (Captioning and Detection)\n- LSUN Classification\n- ImageFolder\n- Imagenet-12\n- CIFAR10 and CIFAR100 - Added utilities for saving ima…",
+                "isPrerelease": true,
+                "url": "https://github.com/pytorch/vision/releases/tag/v0.1.5"
+              }
+            },
+            {
+              "node": {
+                "name": "Add models and modelzoo, some bugfixes",
+                "createdAt": "2017-01-19T00:54:56Z",
+                "publishedAt": "2017-04-03T04:40:39Z",
+                "tagName": "v0.1.6",
+                "updatedAt": "2017-04-03T04:40:39Z",
+                "shortDescriptionHTML": "## New Features\n- Add `torchvision.models`: Definitions and pre-trained models for common vision models - ResNet, AlexNet, VGG models added with downloadable pre-trained weights - adding padding to…",
+                "isPrerelease": false,
+                "url": "https://github.com/pytorch/vision/releases/tag/v0.1.6"
+              }
+            },
+            {
+              "node": {
+                "name": "Just a version bump",
+                "createdAt": "2017-01-19T20:12:01Z",
+                "publishedAt": "2017-04-03T04:41:57Z",
+                "tagName": "v0.1.7",
+                "updatedAt": "2017-04-03T04:41:57Z",
+                "shortDescriptionHTML": "A small release, just needed a version bump because of PyPI.",
+                "isPrerelease": false,
+                "url": "https://github.com/pytorch/vision/releases/tag/v0.1.7"
+              }
+            },
+            {
+              "node": {
+                "name": "More models and datasets. Some bugfixes",
+                "createdAt": "2017-03-29T14:24:48Z",
+                "publishedAt": "2017-04-03T04:53:18Z",
+                "tagName": "v0.1.8",
+                "updatedAt": "2017-04-03T04:53:18Z",
+                "shortDescriptionHTML": "## New Features\n### Models\n- SqueezeNet 1.0 and 1.1 models added, along with pre-trained weights\n- Add pre-trained weights for VGG models - Fix location of dropout in VGG\n- `torchvision.models` now…",
+                "isPrerelease": false,
+                "url": "https://github.com/pytorch/vision/releases/tag/v0.1.8"
+              }
+            },
+            {
+              "node": {
+                "name": "More models and some bug fixes",
+                "createdAt": "2017-08-06T06:59:07Z",
+                "publishedAt": "2017-09-11T16:15:34Z",
+                "tagName": "v0.1.9",
+                "updatedAt": "2017-09-11T16:15:34Z",
+                "shortDescriptionHTML": "- Ability to switch image backends between PIL and accimage\n- Added more tests\n- Various bug fixes and doc improvements ## Models - Fix for inception v3 input transform bug https://github.com/pytor…",
+                "isPrerelease": false,
+                "url": "https://github.com/pytorch/vision/releases/tag/v0.1.9"
+              }
+            },
+            {
+              "node": {
+                "name": "v0.2.0: New transforms + a new functional interface",
+                "createdAt": "2017-11-25T18:10:23Z",
+                "publishedAt": "2017-11-27T18:09:09Z",
+                "tagName": "v0.2.0",
+                "updatedAt": "2017-11-27T18:09:09Z",
+                "shortDescriptionHTML": "This version introduced a functional interface to the transforms, allowing for joint random transformation of inputs and targets. We also introduced a few breaking changes to some datasets and tran…",
+                "isPrerelease": false,
+                "url": "https://github.com/pytorch/vision/releases/tag/v0.2.0"
+              }
+            },
+            {
+              "node": {
+                "name": "New datasets, transforms and fixes",
+                "createdAt": "2018-04-24T18:16:07Z",
+                "publishedAt": "2018-04-24T18:16:46Z",
+                "tagName": "v0.2.1",
+                "updatedAt": "2018-04-24T18:16:46Z",
+                "shortDescriptionHTML": "This version introduces several fixes and improvements to the previous version. ## Better printing of Datasets and Transforms * Add descriptions to Transform objects.\n```python\n# Now T.Compose([T.R…",
+                "isPrerelease": false,
+                "url": "https://github.com/pytorch/vision/releases/tag/v0.2.1"
+              }
+            },
+            {
+              "node": {
+                "name": "More datasets, transforms and bugfixes ",
+                "createdAt": "2019-03-01T21:40:22Z",
+                "publishedAt": "2019-02-26T17:13:20Z",
+                "tagName": "v0.2.2",
+                "updatedAt": "2019-03-01T21:43:07Z",
+                "shortDescriptionHTML": "\nThis version introduces several improvements and fixes. # Support for arbitrary input sizes for models It is now possible to feed larger images than 224x224 into the models in torchvision.\nWe adde…",
+                "isPrerelease": false,
+                "url": "https://github.com/pytorch/vision/releases/tag/v0.2.2"
+              }
+            },
+            {
+              "node": {
+                "name": "Training scripts, detection/segmentation models and more",
+                "createdAt": "2019-05-22T19:15:46Z",
+                "publishedAt": "2019-05-22T19:45:45Z",
+                "tagName": "v0.3.0",
+                "updatedAt": "2019-05-22T19:45:45Z",
+                "shortDescriptionHTML": "This release brings several new features to torchvision, including models for semantic segmentation, object detection, instance segmentation and person keypoint detection, and custom C++ / CUDA ops…",
+                "isPrerelease": false,
+                "url": "https://github.com/pytorch/vision/releases/tag/v0.3.0"
+              }
+            },
+            {
+              "node": {
+                "name": "Video support, new datasets and models",
+                "createdAt": "2019-08-06T23:15:22Z",
+                "publishedAt": "2019-08-08T15:09:09Z",
+                "tagName": "v0.4.0",
+                "updatedAt": "2019-08-08T15:09:09Z",
+                "shortDescriptionHTML": "This release adds support for video models and datasets, and brings several improvements. **Note**: torchvision 0.4 requires PyTorch 1.2 or newer # Highlights ## Video and IO Video is now a first-c…",
+                "isPrerelease": false,
+                "url": "https://github.com/pytorch/vision/releases/tag/v0.4.0"
+              }
+            },
+            {
+              "node": {
+                "name": "Compat with PyTorch 1.3 and bugfix",
+                "createdAt": "2019-10-11T17:22:38Z",
+                "publishedAt": "2019-10-30T15:18:42Z",
+                "tagName": "v0.4.1",
+                "updatedAt": "2019-10-30T15:18:42Z",
+                "shortDescriptionHTML": "This minor release provides binaries compatible with PyTorch 1.3. Compared to version 0.4.0, it contains a single bugfix for `HMDB51` and `UCF101` datasets, fixed in https://github.com/pytorch/visi…",
+                "isPrerelease": false,
+                "url": "https://github.com/pytorch/vision/releases/tag/v0.4.1"
+              }
+            },
+            {
+              "node": {
+                "name": "Optimized video reader backend",
+                "createdAt": "2019-11-07T12:41:35Z",
+                "publishedAt": "2019-11-07T16:33:55Z",
+                "tagName": "v0.4.2",
+                "updatedAt": "2019-11-07T16:33:55Z",
+                "shortDescriptionHTML": "This minor release introduces an optimized `video_reader` backend for torchvision. It is implemented in C++, and uses FFmpeg internally. The new `video_reader` backend can be up to 6 times faster c…",
+                "isPrerelease": false,
+                "url": "https://github.com/pytorch/vision/releases/tag/v0.4.2"
+              }
+            },
+            {
+              "node": {
+                "name": "Towards better research to production support",
+                "createdAt": "2020-01-13T14:30:34Z",
+                "publishedAt": "2020-01-15T22:11:49Z",
+                "tagName": "v0.5.0",
+                "updatedAt": "2020-01-15T22:11:49Z",
+                "shortDescriptionHTML": "This release brings several new additions to torchvision that improves support for deployment. Most notably, all models in torchvision are torchscript-compatible, and can be exported to ONNX. Addit…",
+                "isPrerelease": false,
+                "url": "https://github.com/pytorch/vision/releases/tag/v0.5.0"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
